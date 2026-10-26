@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/hapticctl/hapticctl.csproj" />
+    <Project Path="src/RdHaptic.Agent/RdHaptic.Agent.csproj" />
+    <Project Path="src/RdHaptic.Client/RdHaptic.Client.csproj" />
+    <Project Path="src/RdHaptic.Protocol/RdHaptic.Protocol.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/RdHaptic.Tests/RdHaptic.Tests.csproj" />
+  </Folder>
+</Solution>

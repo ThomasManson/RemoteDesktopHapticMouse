@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <!-- Produces RdHaptic.Client.comhost.dll: the native COM shim mstsc.exe loads as the DVC plugin. -->
+    <EnableComHosting>true</EnableComHosting>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RdHaptic.Protocol\RdHaptic.Protocol.csproj" />
+  </ItemGroup>
+
+</Project>
